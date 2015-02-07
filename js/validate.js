@@ -157,6 +157,7 @@ $(document).ready(function(){
 					$("#formFields").show();
 					$("#submitButton").show();
 					$("#newButton").hide();
+					$('#phoneField').removeClass();
 				});
 	
 } // function
