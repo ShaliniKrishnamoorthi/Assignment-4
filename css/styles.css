@@ -1,0 +1,44 @@
+/*
+Assignment 4 : JQuery
+Author : Shalini Krishnamoorthi
+File Name : styles.css
+Version 1 : 02/03/2015
+*/
+
+
+section{
+	padding: 5em 10em; /*top right bottom left*/
+	position:absolute;
+}
+
+label{
+	float: left;
+	width: 11em;
+	text-align: right;
+}
+
+input{
+	width: 12em;
+	margin-left: 1em;
+	margin-bottom: .5em;
+}
+
+input.error{
+	border: 2px solid red;
+}
+
+input.accepted{
+	border: 2px solid green;
+}
+
+button{  
+	 padding: 0 2em 0 1em;
+	 width: 5em;  
+} 
+
+.values{
+	padding: 0 0 0 1em;
+	float: left;
+	width: 11em;
+	text-align: left;
+}
